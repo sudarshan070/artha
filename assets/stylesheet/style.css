@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* my css reset  */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* common css */
+
+body {
+  line-height: 1.5;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.nav li,
+.icon li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+}
+.call,
+.iso {
+  font-size: 20px;
+}
+.padding {
+  padding: 40px 0;
+}
+
+/* header */
+.header {
+  background: radial-gradient(#ffffff, #f1f2f1);
+  box-shadow: 0 1px 1px 2px #bbbbbb;
+}
+.nevigation {
+  text-align: right;
+  padding-bottom: 0;
+}
+.fab,
+.far {
+  font-size: 24px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+.iso {
+  color: #bbbbbb;
+}
+.call {
+  color: #275b12;
+}
+.fac:hover {
+  color: #4267b2;
+}
+.twi:hover {
+  color: #39a2f2;
+}
+.mail:hover {
+  color: #c23a2b;
+}
+.nav a {
+  color: #5c606a;
+  font-size: 22px;
+  padding-left: 24px;
+}
+.nav a:hover {
+  color: #88ac30;
+}
+.active a {
+  color: #88ac30;
+}
+.top-border {
+  border-top: 3px solid #9ec438;
+}
+.header-padding {
+  padding-top: 8px;
+}
+
+/******* about section *****/
+
+.form {
+  background: linear-gradient(to bottom, #e66e36, #e56e35);
+  color: #ffffff;
+}
+
+.about-col {
+  width: 33%;
+  padding: 0 24px;
+}
+.image {
+  width: 61%;
+}
+img {
+  width: 100%;
+}
+.lable {
+  margin-right: 24px;
+}
+.select,
+.input {
+  width: 58%;
+  outline: none;
+  border: 1px solid rgb(221, 215, 215);
+}
+
+.form h2 {
+  font-size: 24px;
+  padding: 8px 3px;
+}
+.input-padding {
+  padding-top: 8px;
+}
