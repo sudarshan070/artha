@@ -375,11 +375,113 @@ img {
   text-decoration: underline;
 }
 /* copyright */
+
 .copyright {
   background: #000000;
   color: #f1f2f1;
-  padding: 20px 0;
 }
 .copyright a {
   color: #459838;
+}
+.copyright-padding {
+  padding: 24px;
+}
+
+/*********************************/
+/* tour package page */
+/*********************************/
+
+/* tour-heading */
+
+.tour-heading {
+  padding: 5px;
+  color: #737988;
+}
+.tour-heading p {
+  font-size: 16px;
+}
+.tour-heading h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+.tour-place {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tour-place-img {
+  width: 30%;
+  padding-bottom: 38px;
+}
+.tour-img {
+  border: 1px solid #a5a6a7;
+  border-radius: 4px;
+}
+.tour-place-img h4 {
+  font-size: 20px;
+  color: #555555;
+  font-weight: 500;
+}
+.btn-tour {
+  background: #a0c249;
+  font-size: 14px;
+  padding: 4px 8px;
+  border: 1px solid #a5a6a7;
+  border-radius: 3px;
+}
+
+/**************************/
+/* aboutpage */
+/**************************/
+
+.about-article-img {
+  float: left;
+  width: 200px;
+  margin-right: 32px;
+}
+.about-article {
+  padding-top: 24px;
+  width: 65%;
+}
+.aboutpage {
+  padding: 24px 0;
+}
+.aboutpage h2 {
+  padding-left: 24px;
+}
+.about-article p {
+  color: #5c606b;
+  font-size: 18px;
+}
+.icon-circle-about {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.icon-circle-about a {
+  font-size: 32px;
+}
+.about-diaplay {
+  display: flex;
+}
+.about-right a {
+  padding-top: 14px;
+  font-size: 20px;
+}
+.about-right {
+  display: flex;
+}
+.about-color {
+  color: #2b81c7;
+}
+.about-color-2 {
+  color: #b82925;
+}
+.about-color-3 {
+  color: #f3953d;
+}
+.about-color:hover,
+.about-color-2:hover,
+.about-color-3 :hover {
+  color: #df78df;
 }
