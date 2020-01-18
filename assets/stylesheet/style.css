@@ -387,6 +387,59 @@ img {
   padding: 24px;
 }
 
+/* media resposive */
+
+@media all and (max-width: 780px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .about-col {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 18px;
+  }
+  .image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .flex {
+    display: block;
+  }
+  .input-padding {
+    display: flex;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .btn {
+    margin: 12px;
+  }
+  .contact-flex {
+    display: block;
+    text-align: -webkit-center;
+  }
+  .icon-circle {
+    margin: 0;
+  }
+  .contact h2 {
+    text-align: inherit;
+  }
+  .travels-inffo {
+    width: 100%;
+  }
+  .news {
+    width: 100%;
+  }
+  .footer {
+    text-align: center;
+  }
+  .copyright {
+    text-align: center;
+  }
+}
+
 /*********************************/
 /* tour package page */
 /*********************************/
@@ -428,6 +481,14 @@ img {
   padding: 4px 8px;
   border: 1px solid #a5a6a7;
   border-radius: 3px;
+}
+
+/* media resposive tour and package */
+
+@media all and (max-width: 780px) {
+  .tour-place-img {
+    width: 100%;
+  }
 }
 
 /**************************/
@@ -484,4 +545,19 @@ img {
 .about-color-2:hover,
 .about-color-3 :hover {
   color: #df78df;
+}
+
+/* aboutpage responsive*/
+
+@media all and (max-width: 780px) {
+  .about-contact {
+    width: 100%;
+  }
+  .about-article {
+    width: 100%;
+    padding-bottom: 16px;
+  }
+  .about-diaplay {
+    margin-bottom: 12px;
+  }
 }
